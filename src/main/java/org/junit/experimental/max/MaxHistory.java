@@ -67,7 +67,7 @@ public class MaxHistory implements Serializable {
      * See https://github.com/junit-team/junit4/issues/976
      */
     private final Map<String, Long> fDurations = new HashMap<String, Long>();
-    private final Map<String, Long> fFailureTimestamps = new HashMap<String, Long>();
+    private final Map<String, Long> fFailureTimestamps = new HashMap<String, Long>(); // NOPMD by admin on 18. 1. 11 ?? 4:59
     private final File fHistoryStore;
 
     private MaxHistory(File storedResults) {
